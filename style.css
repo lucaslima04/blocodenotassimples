@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding-inline: 20%;
+    background-color: #1b1b1b;
+    color: #f5edbe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 25px;
+}
+
+
+#mynotas {
+    overflow: auto; 
+    word-wrap: break-word; 
+    white-space: pre-wrap; 
+    padding: 10px; 
+    background-color: #222; 
+    color: #ffc107; 
+    border-radius: 8px; 
+    max-height: 300px;
+}
+
+#mynotas ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#mynotas ul li {
+    margin-bottom: 10px;
+}
+
+#mynotas ul li strong {
+    display: block; 
+    font-size: 1.2rem; 
+    color: #fff; 
+}
+
+
+#btn1{
+    background-color: #ffda05;
+    text-decoration: none;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1b1b1b;
+    font-size: x-large;
+}
+
+#btn1:hover{
+    background-color: #946706;
+    color: #f5edbe;
+}
+
+#body2{
+    margin: 0;
+    padding: 0;
+    padding-inline: 20%;
+    background-color: #1b1b1b;
+    color: #f5edbe;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 2%;
+    flex-direction: column;
+}
+
+#nn1{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#titulonota{
+    background-color: #1b1b1b;
+    border: none;
+    border-bottom: solid 1px #4d4d4d;
+    color: #f5edbe;
+    font-size: 1.2em;
+}
+
+#nn2{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+#novanota{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border: solid 1px #4d4d4d;
+    background-color: #222222;
+    border-radius: 5px;
+    color: #f5edbe;
+}
+
+#nn3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}   
+
+#addnotas{
+border: none;
+background-color: #ffda05;
+color: #1b1b1b;
+height: 30px;
+width: 120px;
+border-radius: 5px;
+transition: 0.3s ease;
+cursor: pointer;
+}
+
+#addnotas:hover{
+    background-color: #946706;
+    color: #f5edbe;
+}
+
+#aviso{
+    color: #4d4d4d;
+    cursor: default;
+    display: flex;
+    justify-self: center;
+}
+
+#clearAll{
+    background-color: #ffda05;
+    text-decoration: none;
+    border: none;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1b1b1b;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#clearAll:hover{
+    background-color: #946706;
+    color: #f5edbe;
+}
